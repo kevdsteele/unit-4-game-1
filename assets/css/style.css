@@ -1,0 +1,74 @@
+@import "reset.css";
+
+body {
+background-image: url("../images/abstract-3600434_1280.jpg");
+line-height: 1.5em;
+}
+
+.header {
+background-color: orange;
+color:white;
+
+}
+
+.game-info {
+background-color: bisque;
+color:green;
+}
+
+.rand-score{
+background-color: lightgreen;
+}
+
+.score-board {
+background-color: aqua;
+}
+
+.score-text, .rand-score{
+font-size:36px;
+
+}
+
+h4, .score-text {
+color:white;
+background-color: teal;
+}
+
+.score-header {
+background-color: teal;
+color:white;
+}
+
+button {
+height:100px;
+width:100px;
+align-content: left;
+}
+
+h1 {
+font-size: 36px;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+p{
+margin-bottom:20px;
+}
+
+.btn1 {
+background-image: url("../images/crys1.png");
+background-repeat: no-repeat;
+}
+.btn2 {
+    background-image: url("../images/crys2.png");
+    background-repeat: no-repeat;
+    }
+
+    .btn3 {
+        background-image: url("../images/crys3.png");
+        background-repeat: no-repeat;
+        }
+        .btn4 {
+            background-image: url("../images/crys4.png");
+            background-repeat: no-repeat;
+            }
