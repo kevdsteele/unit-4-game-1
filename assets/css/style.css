@@ -40,9 +40,11 @@ color:white;
 }
 
 button {
-height:100px;
-width:100px;
-align-content: left;
+height:75px;
+width:75px;
+
+margin-right:10px;
+
 }
 
 h1 {
@@ -55,20 +57,3 @@ p{
 margin-bottom:20px;
 }
 
-.btn1 {
-background-image: url("../images/crys1.png");
-background-repeat: no-repeat;
-}
-.btn2 {
-    background-image: url("../images/crys2.png");
-    background-repeat: no-repeat;
-    }
-
-    .btn3 {
-        background-image: url("../images/crys3.png");
-        background-repeat: no-repeat;
-        }
-        .btn4 {
-            background-image: url("../images/crys4.png");
-            background-repeat: no-repeat;
-            }

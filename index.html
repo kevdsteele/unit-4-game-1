@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Crystal Game</title>
-<script src="https://cdnjs.cloudfare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type ="text/javascript" src="assets/javascript/game.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="stylesheet" type ="text/css" href="assets/css/style.css">
@@ -35,21 +35,19 @@
 
 <div class="row mt-2 mb-1">
     <div class="col-md-3 pt-3 pb-5 mr-1 rand-score ">
-        39
+        
     </div>
     <div class="col-md-1 score-board pt-3 pb -3">
-        <span  id="wins">Wins 12</span>
-        <span  id="losses">Losses 12</span>
+        <span id="result-text"></span>
+        Wins <span id="wins"></span>
+        Losses <span id="losses"></span>
     </div>
     
 </div>
 
 <div class="row mt-2 mb-1">
-    <div class="col-md-5 float-left">
-        <button class="btn-size ml-0 btn1"></button>
-        <button class="btn-size btn2"></button>
-        <button class="btn-size btn3"></button>
-        <button class="btn-size btn4"></button>
+    <div class="col-md-5" id="buttons">
+       
     </div>
 
 </div>
